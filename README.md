@@ -1,4 +1,3 @@
 # Neovim Dotfiles
 
-in construction...
-
+My Neovim configuration with LazyVim inspired by Devaslife video on youtube.
