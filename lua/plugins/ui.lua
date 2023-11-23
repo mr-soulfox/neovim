@@ -85,6 +85,25 @@ return {
     end,
   },
   {
+    "akinsho/toggleterm.nvim",
+    version = "*",
+    opts = {
+      shell = "zsh",
+    },
+    keys = {
+      {
+        "<leader>tf",
+        "<cmd>ToggleTerm direction=float<CR>",
+        desc = "Open Float Terminal",
+      },
+      {
+        "<leader>th",
+        "<C-\\><C-n><C-w>",
+        desc = "Hide terminal",
+      },
+    },
+  },
+  {
     "echasnovski/mini.animate",
     event = "VeryLazy",
     opts = function(_, opts)
