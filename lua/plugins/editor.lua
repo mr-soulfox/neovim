@@ -146,4 +146,21 @@ return {
     "folke/flash.nvim",
     enabled = false,
   },
+  {
+    "kdheepak/lazygit.nvim",
+    dependencies = {
+      "nvim-telescope/telescope.nvim",
+      "nvim-lua/plenary.nvim",
+    },
+    config = function()
+      require("telescope").load_extension("lazygit")
+    end,
+    keys = {
+      {
+        "<leader>tg",
+        "<cmd>LazyGit<CR>",
+        desc = "Toogle LazyGit",
+      },
+    },
+  },
 }

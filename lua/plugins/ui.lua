@@ -96,11 +96,6 @@ return {
         "<cmd>ToggleTerm direction=float<CR>",
         desc = "Open Float Terminal",
       },
-      {
-        "<leader>th",
-        "<C-\\><C-n><C-w>",
-        desc = "Hide terminal",
-      },
     },
   },
   {

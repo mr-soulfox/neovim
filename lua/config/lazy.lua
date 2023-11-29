@@ -38,14 +38,18 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.json" },
 
     -- Coding
-    { import = "lazyvim.plugins.extras.coding.tabnine" },
+    { import = "lazyvim.plugins.extras.coding.codeium" },
     { import = "lazyvim.plugins.extras.coding.yanky" },
+
+    -- Editor
+    { import = "lazyvim.plugins.extras.editor.leap" },
 
     -- Ui
     { import = "lazyvim.plugins.extras.ui.mini-animate" },
 
     -- Utils
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
+    { import = "lazyvim.plugins.extras.util.project" },
 
     -- import/override with your plugins
     { import = "plugins" },
